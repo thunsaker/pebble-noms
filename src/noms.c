@@ -20,6 +20,7 @@
 #include <pebble.h>
 #include <pebble_app_info.h>
 #include <pebble_fonts.h>
+#include <battbar.h>
 
 static Window *window;
 
