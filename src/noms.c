@@ -147,6 +147,13 @@ static void window_load(Window *window) {
     jaw_layer = bitmap_layer_create(jaw_from_rect);
     bitmap_layer_set_bitmap(jaw_layer, jaw);
     layer_add_child(root_layer, bitmap_layer_get_layer(jaw_layer));
+
+    BBOptions options;
+    options.position = BATTBAR_POSITION_LEFT;
+    options.direction = BATTBAR_DIRECTION_UP;
+    options.color = BATTBAR_COLOR_BLACK;
+    options.isWatchApp = false;
+    DrawBattBar(options, root_layer);
 }
 
 static void window_unload(Window *window) {

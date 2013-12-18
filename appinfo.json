@@ -1,10 +1,10 @@
 {
   "uuid": "32695b0b-479b-4d19-980c-d4c45f1d3447",
-  "shortName": "Noms",
-  "longName": "Noms",
-  "companyName": "Fuzzie",
+  "shortName": "Noms-BattBar",
+  "longName": "Noms-BattBar",
+  "companyName": "thunsaker",
   "versionCode": 1,
-  "versionLabel": "1.5.0",
+  "versionLabel": "1.5.1",
   "watchapp": {
     "watchface": true
   },
@@ -36,6 +36,26 @@
         "type": "font",
         "name": "FONT_BIG_NOODLE_TITLING_55",
         "file": "fonts/big_noodle_titling.ttf"
+      },
+      {
+        "type": "png",
+        "name": "WHITE_LINE_FULL",
+        "file": "images/white_line_tall.png"
+      },
+      {
+        "type": "png",
+        "name": "WHITE_LINE_LONG",
+        "file": "images/white_line_long.png"
+      },
+      {
+        "type": "png",
+        "name": "BLACK_LINE_LONG",
+        "file": "images/black_line_long.png"
+      },
+      {
+        "type": "png",
+        "name": "BLACK_LINE_FULL",
+        "file": "images/black_line_tall.png"
       }
     ]
   }
